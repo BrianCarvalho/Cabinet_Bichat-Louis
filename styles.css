@@ -245,6 +245,12 @@ h3 {
   background: rgba(255, 255, 255, 0.12);
 }
 
+.button.appointment {
+  color: var(--ink);
+  background: linear-gradient(135deg, #ffe3a3, var(--honey));
+  box-shadow: 0 12px 28px rgba(243, 199, 102, 0.3);
+}
+
 .button.google {
   color: var(--white);
   background: linear-gradient(135deg, #1a73e8, #34a853);
