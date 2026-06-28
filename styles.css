@@ -601,6 +601,12 @@ h3 {
   color: #cbd5e1;
 }
 
+.reviews-api-status {
+  margin-bottom: 18px;
+  color: #cbd5e1;
+  font-size: 0.95rem;
+}
+
 .review-sources {
   display: grid;
   grid-template-columns: repeat(2, minmax(180px, 1fr));
