@@ -376,6 +376,10 @@ h3 {
   background: linear-gradient(180deg, #ffffff, #eef9f3);
 }
 
+.care-card:nth-child(7) {
+  background: linear-gradient(180deg, #ffffff, #fef0fa);
+}
+
 .care-card:nth-child(2) .care-icon {
   color: #286b8a;
   background: #e2f3fb;
@@ -399,6 +403,11 @@ h3 {
 .care-card:nth-child(6) .care-icon {
   color: #30734f;
   background: #dcf5e7;
+}
+
+.care-card:nth-child(7) .care-icon {
+  color: #974d83;
+  background: #fde3f3;
 }
 
 .split-section {
