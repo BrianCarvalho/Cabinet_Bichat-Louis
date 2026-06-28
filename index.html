@@ -205,8 +205,8 @@
           </div>
           <div class="google-rating" aria-label="Avis Google">
             <span class="stars" aria-hidden="true">★★★★★</span>
-            <strong>4,7/5</strong>
-            <small>7 avis Google</small>
+            <strong data-google-summary-rating>4,7/5</strong>
+            <small data-google-summary-count>7 avis Google</small>
           </div>
           <a
             class="button google"
@@ -224,8 +224,8 @@
           <div class="review-sources">
             <article>
               <span>Google</span>
-              <strong>4,7/5</strong>
-              <small>7 avis</small>
+              <strong data-google-rating>4,7/5</strong>
+              <small data-google-count>7 avis</small>
             </article>
             <article>
               <span>Pages Jaunes</span>
@@ -234,11 +234,11 @@
             </article>
           </div>
 
-          <p class="reviews-api-status">
-            Avis intégrés gratuitement au site, à partir des informations publiques disponibles.
+          <p class="reviews-api-status" data-google-status>
+            Chargement automatique des avis Google si la clé API est configurée.
           </p>
 
-          <div class="patient-reviews">
+          <div class="patient-reviews" data-google-reviews>
             <article>
               <div class="review-avatar">B</div>
               <div>
@@ -282,6 +282,7 @@
       <a href="#accueil">Retour en haut</a>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="config.js?v=google-reviews-1"></script>
+    <script src="script.js?v=google-reviews-1"></script>
   </body>
 </html>
